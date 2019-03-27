@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 2-3</title>
+
+<style type = "text/css">
+.a {
+  transition: transform .2s;
+  width: 100px;
+  height: 100px;
+}
+
+.a:hover { 
+  -ms-transform: scale(2);
+  -webkit-transform: scale(2);
+  transform: scale(2); 
+}
+
+.pgraph {
+	font-size: 24px;
+}
+
+.pgraph:hover
+{
+	background-color: blue;
+	color: white;
+	font-size: 30px;
+}
+
+input:focus {
+  background-color: yellow;
+  color: blue;
+  width: 250px;
+  height: 20px;
+}
+
+input:hover {
+  background-color: cyan;
+  color: red;
+  width: 250px;
+  height: 20px;
+}
+}
+</style>
+
+</head>
+<body bgcolor="#b8cced">
+
+<form action="/action_page.php" method="get">
+<table border="0">
+	<tr>
+		<td>First Name:</td>
+  		<td><input type="text" name="firstname" size="30"><br></td>
+	</tr>
+<tr>
+  <td>Last Name:</td>
+  <td><input type="text" name="lastname" size="30"><br></td>
+</tr>
+<tr>
+  <td>E-Mail Address:</td>
+  <td><input type="text" name="emailaddress" size="30"><br></td>
+</tr>
+<td>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Clear">
+</td>
+</table>
+</form>
+
+<br><br><i><a href="index.html">Back to Homework 2 Index</a></i>
+</center>
+
+</body>
+</html>
