@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 2-2</title>
+
+<!-- 2 inside scale() is for 2x the size-->
+<style type = "text/css">
+.a {
+  padding: 5px;
+  transition: transform .2s;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.a:hover { 
+  -ms-transform: scale(2);
+  -webkit-transform: scale(2);
+  transform: scale(2); 
+}
+
+.pgraph {
+	font-size: 24px;
+}
+
+.pgraph:hover
+{
+	background-color: blue;
+	color: white;
+	font-size: 30px;
+}
+</style>
+
+</head>
+<body bgcolor="#b8cced">
+	<center>
+<h3><p>Hover over the ladybug to see larger.</p></h3>
+  
+<div class="a">
+<img src="ladybug.jpg" width="100" height="100" alt="Ladybug">
+</div>
+</p>
+<div class="pgraph">
+Please move your mouse on top of this paragraph in order to<br>
+1. Change foreground color to white<br>
+2. Change background color to blue and<br>
+the font size to 30 points.
+</div>
+
+<br><br><i><a href="index.html">Back to Homework 2 Index</a></i>
+</center>
+
+</body>
+</html>

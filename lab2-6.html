@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 2-6</title>
+
+<style type="text/css">
+.dropbutton
+{
+  background-color: red;
+  color: cyan;
+  font-size: 30px;
+  border: solid 5px blue;
+  cursor: pointer;
+  width: 300px;
+}
+
+.dropdown
+{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content
+{
+  font-size: 30px;
+  text-align: center;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  border-left: solid 5px blue;
+  border-right: solid 5px blue;
+  border-bottom: solid 5px blue;
+  background-color:black;
+}
+
+.dropdown-content a
+{
+  background-color:black;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover
+{
+  background-color: yellow;
+  color:purple;
+  border-top:solid 5px blue;
+  border-bottom:solid 5px blue;
+}
+
+.dropdown:hover .dropdown-content
+{
+  display: block;
+}
+
+</style>
+</head>
+<body>
+
+<div class="dropdown">
+  <button class="dropbutton">Some Colleges at MSU</button>
+  <div class="dropdown-content">
+  <a href="https://www.montclair.edu/academics/colleges-and-schools/#csam">College of Math and Sciences</a>
+  <a href="https://www.montclair.edu/academics/colleges-and-schools/#fsob">Business School</a>
+  <a href="https://www.montclair.edu/academics/colleges-and-schools/#chss">College of Humanities and Social Sciences</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbutton">Departments in CSAM</button>
+  <div class="dropdown-content">
+  <a href="http://www.montclair.edu/biology/">Biology</a>
+  <a href="http://www.montclair.edu/computer-science/">Computer Science</a>
+  <a href="http://www.montclair.edu/chemistry-biochemistry/">Chemistry</a>
+  <a href="http://www.montclair.edu/earth-and-environmental-studies/">Earth and Environmental Studies</a>
+  </div>
+</div>
+  
+
+<center>
+<br><br><i><a href="index.html">Back to Homework 2 Index</a></i>
+</center>
+
+</body>
+</html>

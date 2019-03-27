@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 2-7</title>
+
+<style>
+
+img
+{
+margin: 80px;
+-webkit-transition: -webkit-transform 3s; 
+-moz-transition: -moz-transform 3s; 
+-o-transition: -o-transform 3s; 
+transition: transform 3s;
+}
+
+img:hover
+{
+-webkit-transform: rotate(1080deg) scale(2, 2); 
+-moz-transform: rotate(1080deg) scale(2, 2);
+-o-transform: rotate(1080deg) scale(2, 2); 
+transform: rotate(1080deg) scale(2, 2);
+ }
+
+#mid img:hover
+{
+-webkit-transform: rotate(-1080deg) scale(2, 2); 
+-moz-transform: rotate(-1080deg) scale(2, 2);
+-o-transform: rotate(-1080deg) scale(2, 2); 
+transform: rotate(-1080deg) scale(2, 2);
+ }
+
+</style>
+</head>
+<body>
+
+<center>
+<img src="ladybug.jpg" width="150" height="150">
+<span id="mid"><img src="njbird.jpeg" class="mid" width="150" height="150"></span>
+<img src="olympicrings.jpg" width="150" height="150">
+
+
+<br><br><i><a href="index.html">Back to Homework 2 Index</a></i>
+</center>
+
+</body>
+</html>
